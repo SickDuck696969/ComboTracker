@@ -1,0 +1,47 @@
+# Gradle files
+.gradle/
+build/
+*/build/
+gradle-app.setting
+
+# Local configuration file (hides your absolute path SDK location)
+local.properties
+
+# Android Studio / IntelliJ IDE files
+.idea/
+*.iml
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/caches/build_file_checksums.ser
+.idea/modules/
+
+# Mac / Windows OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Keystore files (CRITICAL: Prevents your app signing keys from leaking!)
+*.jks
+*.keystore
+
+# Log Files
+*.log
+
+# NDK / C++ (Just in case you add native code later)
+.cxx/
+.externalNativeBuild/
+
+# Google Services (If you ever add Firebase)
+google-services.json
